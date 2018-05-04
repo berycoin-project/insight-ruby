@@ -11,9 +11,9 @@ module Insight
 
     def url
       @url ||= if network == 'btc'
-                 'https://insight.bitpay.com/api'
+                 'https://explorer.berycoin.com/api'
                else
-                 'https://test-insight.bitpay.com/api'
+                 'https://testexplorer.berycoin.com/api'
                end
     end
 
